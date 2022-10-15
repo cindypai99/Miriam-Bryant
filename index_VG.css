@@ -1,0 +1,117 @@
+body {
+    background-image: url(./images/miriambryant_2.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 100px;
+}
+
+header {
+    font-family: 'Bungee Shade';
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 70px;
+}
+
+h1  {
+    margin: 0;
+}
+
+.container  {
+    width: 90vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+nav     {
+    font-family: 'Barlow Condensed';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 70px;
+}
+
+.nav    {
+    flex-grow: 1;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    color: black;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+.marked{
+    border: 1px solid white;
+    flex-grow: 1;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    color: black;
+    font-size: 26px;
+    box-shadow: 0 0 10px white;
+    border-radius: 10px;
+}
+
+article    {
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: rgba(0, 0, 0,0.4);
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+}
+
+.head   {
+    font-family:Bungee Outline;
+    font-size: 38px;
+}
+
+.head2  {
+    margin: 0;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.album_data     {
+    font-family: Barlow Condensed;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.list  {
+    list-style: none;
+    margin-top: -15px;
+    padding-left: 90px;
+}
+.album_description  {
+    z-index: 1;
+}
+
+.show_hover     {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+}
+
+.show_not_hover     {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+}
